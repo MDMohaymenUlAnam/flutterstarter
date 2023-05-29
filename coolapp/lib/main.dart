@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  MaterialApp( //here the const keyword has to used to solve the warning, so that flutter is happy
+    return  MaterialApp( //here the const keyword has to used to solve the warning, so that flutter is happy and wont show errors
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.purple
