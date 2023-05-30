@@ -1,3 +1,4 @@
+import 'package:coolapp/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -34,6 +35,7 @@ class _RootPageState extends State<RootPage> {
       appBar: AppBar(
         title: const Text('Flutter'),
       ),
+      body: const HomePage(),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           debugPrint('Floating action button is pressed');
@@ -50,7 +52,7 @@ class _RootPageState extends State<RootPage> {
         });
       },
       selectedIndex: currentPage,
-      ),  
+      ),   
       
     );
   }
