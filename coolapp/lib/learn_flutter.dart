@@ -18,6 +18,11 @@ class _LearnFlutterPageState extends State<LearnFlutterPage> {
           Navigator.of(context).pop();  //flutter needs the context to know what is working from behind
         }, icon: const Icon(Icons.arrow_back_ios_sharp)),
       ),
+      body: Column(
+        children: [
+          Image.asset('images/kafka.jpg')
+        ],
+      ),
     );
   }
 }
